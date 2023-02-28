@@ -1,0 +1,11 @@
+{
+  "workbench.editor.tabCloseButton": "left",
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": true,
+  "window.zoomLevel": -1.5,
+
+  "files.associations": {
+    "*.env*": "env",
+  }
+}
