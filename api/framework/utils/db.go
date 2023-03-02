@@ -30,6 +30,7 @@ func ConnectDB() *gorm.DB {
 		panic(err)
 	}
 
+	db.AutoMigrate(&domain.Profile{})
 	db.AutoMigrate(&domain.User{})
 	return db
 }
